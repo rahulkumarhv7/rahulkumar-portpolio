@@ -1,0 +1,50 @@
+/* Featured project cards based on the supplied reference. */
+.projects-section{width:min(1316px,88vw);padding-block:100px 120px}
+.projects-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:40px;margin-bottom:60px}
+.projects-heading .eyebrow{margin:0 0 14px;font:500 13px/1.6 var(--mono);letter-spacing:.2em}
+.projects-heading h2{font:700 clamp(38px,4.2vw,56px)/1.2 var(--serif);letter-spacing:-.04em}
+.projects-section .filter-row{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:12px;margin:0}
+.projects-section .filter-button{min-height:64px;padding:14px 30px;border:1px solid #d4d3e3;border-radius:8px;background:#fff;color:var(--ink);box-shadow:0 2px 5px #11101b25;font:700 17px/1.5 var(--sans);cursor:pointer}
+.projects-section .filter-button[aria-pressed="true"]{background:var(--ink);color:#fff;border-color:var(--ink)}
+.projects-section .filter-button:hover{border-color:var(--ink)}
+.projects-section .project-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:34px;align-items:stretch}
+.projects-section .project-card{display:flex;flex-direction:column;min-width:0;overflow:hidden;border:1px solid #dedff0;border-radius:25px;background:#fff;box-shadow:none}
+.projects-section .project-art{flex-shrink:0;display:grid;place-items:center;width:100%;height:auto;aspect-ratio:16/9;font-size:56px}
+.projects-section .food-art{background:linear-gradient(125deg,#ffe1ae,#ffd083)}
+.projects-section .resume-art{background:linear-gradient(125deg,#e1f1ff,#bddffc)}
+.projects-section .qdance-art{background:linear-gradient(125deg,#eee6ff,#d3c5fa)}
+.projects-section .project-body{flex:1;min-height:370px;padding:26px 27px 44px}
+.projects-section .tags{gap:9px;margin:0 0 15px}
+.projects-section .tags span{padding:6px 12px;border-radius:99px;background:#f7f7fb;color:#435173;font:600 12px/1.6 var(--sans);letter-spacing:.04em}
+.projects-section .project-body h3{margin:0 0 14px;color:var(--ink);font:800 21px/1.65 var(--sans);letter-spacing:-.02em}
+.projects-section .project-description{margin:0;color:#515779;font:400 17px/1.65 var(--sans)}
+.projects-section .all-projects{margin-top:34px;font-size:13px}
+@media(max-width:1100px){
+  .projects-heading{align-items:flex-start;flex-direction:column;gap:30px;margin-bottom:42px}
+  .projects-section .filter-row{justify-content:flex-start}
+  .projects-section .project-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px}
+  .projects-section .project-body{min-height:330px}
+}
+@media(max-width:600px){
+  .projects-section{width:88vw;padding-block:65px 75px}
+  .projects-heading{gap:25px;margin-bottom:32px}
+  .projects-heading h2{font-size:38px}
+  .projects-heading .eyebrow{font-size:11px}
+  .projects-section .filter-row{gap:9px}
+  .projects-section .filter-button{min-height:46px;padding:10px 17px;font-size:13px;border-radius:7px}
+  .projects-section .project-grid{grid-template-columns:1fr;gap:26px}
+  .projects-section .project-card{border-radius:21px}
+  .projects-section .project-art{font-size:48px}
+  .projects-section .project-body{min-height:0;padding:24px 23px 32px}
+  .projects-section .tags{gap:7px;margin-bottom:16px}
+  .projects-section .tags span{font-size:11px;padding:5px 10px}
+  .projects-section .project-body h3{font-size:20px;line-height:1.5;margin-bottom:14px}
+  .projects-section .project-description{font-size:15px;line-height:1.8}
+}
+@media print{
+  .projects-section{width:100%;padding-block:20px}
+  .projects-heading{margin-bottom:24px}
+  .projects-section .project-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+  .projects-section .project-art{display:none}
+  .projects-section .project-body{min-height:0;padding:20px}
+}

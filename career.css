@@ -1,0 +1,57 @@
+/* Career timeline, styled to match the supplied reference. */
+.experience-section{background:#f7f7fb;border:0;padding-block:100px 120px}
+.experience-section .wrap{width:min(1316px,88vw)}
+.career-heading{text-align:center;margin-bottom:64px}
+.career-heading .eyebrow{font:500 13px/1.6 var(--mono);letter-spacing:.2em;margin:0 0 14px}
+.career-heading h2{font:700 clamp(38px,4.2vw,56px)/1.15 var(--serif);letter-spacing:-.04em;color:var(--ink)}
+.experience-section .timeline{position:relative;list-style:none;border:0;margin:0;padding:0 0 50px 94px}
+.experience-section .timeline::before{content:"";position:absolute;left:25px;top:26px;bottom:0;width:2px;background:#e2e2ef}
+.experience-section .timeline-item{position:relative;margin:0 0 50px;padding:27px 30px;background:#fff;border:1px solid #dedff0;border-radius:16px;box-shadow:none}
+.experience-section .timeline-item:last-child{margin-bottom:0}
+.experience-section .timeline-marker{position:absolute;left:-94px;top:-1px;display:grid;place-items:center;width:52px;height:52px;border:2px solid #e2e2ef;border-radius:50%;background:#fff;font-size:23px;line-height:1}
+.experience-section .is-current .timeline-marker{border-color:var(--rose);background:#fff5f7}
+.experience-section .timeline-head{display:flex;justify-content:space-between;align-items:center;gap:20px}
+.experience-section .timeline-head h3{margin:0;color:var(--ink);font:800 20px/1.5 var(--sans);letter-spacing:-.02em}
+.experience-section .timeline-date{flex-shrink:0;margin:0;padding:6px 13px;border-radius:99px;background:#f7f7fb;color:#515779;font:400 15px/1.6 var(--sans);white-space:nowrap}
+.experience-section .timeline-company{margin:12px 0 14px;color:var(--rose);font:700 17px/1.7 var(--sans)}
+.experience-section .current-badge{display:inline-block;vertical-align:middle;margin-left:13px;padding:1px 7px;border-radius:4px;background:#dcfce7;color:#15803d;font:400 12px/1.4 var(--sans);letter-spacing:0}
+.experience-section .timeline-description{margin:0;color:#515779;font:400 17px/1.8 var(--sans)}
+.experience-section .tags{gap:10px;margin-top:22px}
+.experience-section .tags span{padding:5px 12px;background:#eeeef6;color:#465174;font:600 13px/1.5 var(--sans)}
+@media(max-width:1000px){
+  .experience-section{padding-block:80px 90px}
+  .career-heading{margin-bottom:48px}
+  .experience-section .timeline{padding-left:76px}
+  .experience-section .timeline-item{padding:25px;margin-bottom:34px}
+  .experience-section .timeline-marker{left:-76px}
+  .experience-section .timeline-head{align-items:flex-start}
+  .experience-section .timeline-head h3{font-size:18px}
+  .experience-section .timeline-date{font-size:13px}
+  .experience-section .timeline-company{font-size:15px}
+  .experience-section .timeline-description{font-size:15px}
+}
+@media(max-width:600px){
+  .experience-section{padding-block:65px 75px}
+  .experience-section .wrap{width:90vw}
+  .career-heading{margin-bottom:38px}
+  .career-heading .eyebrow{font-size:11px}
+  .career-heading h2{font-size:38px}
+  .experience-section .timeline{padding-left:49px;padding-bottom:30px}
+  .experience-section .timeline::before{left:16px;top:17px}
+  .experience-section .timeline-item{padding:20px 18px;margin-bottom:28px;border-radius:13px}
+  .experience-section .timeline-marker{left:-49px;width:34px;height:34px;font-size:18px}
+  .experience-section .timeline-head{flex-direction:column;gap:10px}
+  .experience-section .timeline-head h3{font-size:17px;line-height:1.5}
+  .experience-section .timeline-date{font-size:12px;padding:4px 9px}
+  .experience-section .timeline-company{margin-block:12px;font-size:14px}
+  .experience-section .current-badge{margin-left:8px;font-size:11px}
+  .experience-section .timeline-description{font-size:14px;line-height:1.85}
+  .experience-section .tags{gap:7px;margin-top:18px}
+  .experience-section .tags span{font-size:11px;padding:4px 9px}
+}
+@media print{
+  .experience-section{background:#fff;padding-block:20px}
+  .experience-section .wrap{width:100%}
+  .career-heading{margin-bottom:24px}
+  .experience-section .timeline-item{break-inside:avoid;margin-bottom:20px}
+}

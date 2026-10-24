@@ -1,0 +1,30 @@
+/* Technology cards and category filters. */
+.skills-section{background:#f7f7fb;border-block:1px solid #ededf5;padding-block:95px 110px}
+.skills-section .wrap{width:min(1316px,88vw)}
+#skills .section-heading{display:flex;flex-direction:column;align-items:center;gap:0;text-align:center;margin-bottom:44px}
+#skills .eyebrow{font-size:12px;letter-spacing:.2em;margin:0 0 18px}
+#skills h2{font:700 clamp(40px,4.2vw,58px)/1.2 var(--serif);letter-spacing:-.035em;margin:0}
+#skills .section-description{max-width:660px;font-size:17px;line-height:1.75;margin:20px auto 0;color:var(--body)}
+#skill-filters{justify-content:center;gap:13px;margin-bottom:60px}
+#skill-filters .filter-button{display:inline-flex;justify-content:center;align-items:center;min-height:64px;border:1px solid #ceccdc;border-radius:8px;background:transparent;padding:15px 34px;color:var(--ink);font-size:16px;font-weight:700;box-shadow:0 2px 5px #11101b26;transition:background .18s,color .18s,border-color .18s}
+#skill-filters .filter-button:hover{border-color:var(--ink);color:var(--ink)}
+#skill-filters .filter-button[aria-pressed=true]{background:var(--ink);color:#fff;border-color:var(--ink)}
+.skill-rating-note{font-size:12px;text-align:center;color:var(--body);margin:-38px 0 30px}
+#skill-list{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}
+#skills .skill-card{min-width:0;min-height:216px;background:#fff;border:1px solid #dfe0ef;border-radius:16px;padding:30px;box-shadow:none}
+#skills .skill-symbol{display:grid;place-items:center;width:55px;height:55px;border-radius:16px;font-family:"Segoe UI Emoji","Apple Color Emoji",sans-serif;font-size:26px;line-height:1;margin-bottom:18px}
+#skills .tone-peach{background:#fff3df}#skills .tone-blue{background:#e3f2ff}
+#skills .tone-yellow{background:#fff9df}#skills .tone-cyan{background:#e0f8fc}
+#skills .tone-green{background:#e8f5e9}#skills .tone-purple{background:#eee7f8}
+#skills .tone-pink{background:#fce6ef}
+#skills .skill-card h3{font-size:17px;font-weight:700;line-height:1.5;letter-spacing:-.02em;margin:0 0 13px}
+.skill-meter{width:100%;height:8px;border-radius:99px;background:#f3f3f6;overflow:hidden}
+.skill-meter-fill{display:block;height:100%;background:#e71966}
+.skill-meta{display:flex;justify-content:space-between;align-items:baseline;gap:12px;font-size:14px;line-height:1.7;margin-top:7px}
+.skill-level{color:var(--body);overflow-wrap:anywhere}
+.skill-percent{font-weight:700;white-space:nowrap;color:var(--ink)}
+.skill-context{font-size:14px;line-height:1.7;color:var(--body);margin:15px 0 0}
+@media(max-width:1120px){#skill-list{grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}#skills .skill-card{padding:26px}#skills h2{font-size:48px}#skills .section-description{font-size:16px}}
+@media(max-width:900px){#skill-list{grid-template-columns:repeat(2,minmax(0,1fr))}#skill-filters .filter-button{min-height:56px;padding:13px 24px;font-size:14px}#skills h2{font-size:43px}#skills .section-description{max-width:590px}.skills-section{padding-block:80px 90px}}
+@media(max-width:580px){.skills-section{padding-block:65px 75px}#skills h2{font-size:clamp(34px,8.5vw,43px)}#skills .eyebrow{font-size:11px;margin-bottom:15px}#skills .section-description{font-size:15px;margin-top:18px}#skills .section-heading{margin-bottom:30px}#skill-filters{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:32px}#skill-filters .filter-button{font-size:13px;min-height:52px;padding:12px 14px}#skill-list{grid-template-columns:1fr;gap:18px}#skills .skill-card{padding:26px;min-height:210px}#skills .skill-card h3{font-size:18px}.skill-meta,.skill-context{font-size:14px}.skill-rating-note{margin:-14px 0 24px}}
+@media print{.skills-section{padding-block:20px}#skills .section-heading{margin-bottom:20px}#skills h2{font-size:28px}#skills .section-description{font-size:12px}#skill-list{grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}#skills .skill-card{padding:15px;min-height:160px}#skills .skill-card h3{font-size:13px}.skill-meta,.skill-context{font-size:10px}.skill-rating-note{margin:10px 0}}

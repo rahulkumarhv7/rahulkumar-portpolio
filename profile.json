@@ -1,0 +1,240 @@
+{
+  "name": "Rahul Kumar H V",
+  "role": "Full-Stack Developer",
+  "location": "Bengaluru, India",
+  "headline": "Crafting Digital Experiences That Matter",
+  "summary": "Full-Stack Developer at Tagna building modern, scalable web applications. I connect frontend interfaces, backend services, and event-driven systems to create reliable software.",
+  "about": "Hi! I'm Rahul Kumar H V, a Full-Stack Developer at Tagna, passionate about building modern, scalable, and reliable web applications.",
+  "approach": "I work on frontend and backend development, API integration, databases, and event-driven systems. My project experience includes QDance, an AI-assisted reliability platform designed to monitor asynchronous messaging systems, detect failures, investigate incidents, and support safe recovery.",
+  "aboutInterests": "I enjoy exploring new technologies, solving complex problems, and developing software solutions that combine performance, functionality, and clean code.",
+  "currentRole": "Full-Stack Developer at Tagna",
+  "focus": "Java · Backend · Web",
+  "email": "rahulkumarhvdev@gmail.com",
+  "social": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/rahulkumarhv"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/rahul-kumar-h-v"
+    }
+  ],
+  "stats": [
+    {
+      "value": "1+",
+      "label": "Years Experience"
+    },
+    {
+      "value": "3+",
+      "label": "Projects Done"
+    },
+    {
+      "value": "3+",
+      "label": "Happy Clients"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "items": [
+        "Java",
+        "JavaScript",
+        "Python",
+        "TypeScript"
+      ]
+    },
+    {
+      "name": "Frontend",
+      "items": [
+        "HTML5",
+        "CSS3",
+        "React / Node.js"
+      ]
+    },
+    {
+      "name": "Backend",
+      "items": [
+        "Spring Boot",
+        "Hibernate",
+        "JDBC",
+        "JSP",
+        "REST APIs"
+      ]
+    },
+    {
+      "name": "Data & Messaging",
+      "items": [
+        "MySQL / PostgreSQL",
+        "Redis",
+        "Apache Kafka",
+        "RabbitMQ",
+        "Redis Streams"
+      ]
+    },
+    {
+      "name": "Tools & Platforms",
+      "items": [
+        "Git / GitHub",
+        "Docker / Docker Compose"
+      ]
+    }
+  ],
+  "skillRatings": {
+    "Java": 90,
+    "JavaScript": 82,
+    "Python": 80,
+    "HTML5": 85,
+    "CSS3": 80,
+    "React / Node.js": 70,
+    "Spring Boot": 80,
+    "Hibernate": 80,
+    "MySQL / PostgreSQL": 70,
+    "Git / GitHub": 90
+  },
+  "projects": [
+    {
+      "id": "food",
+      "title": "Online Food Delivery Web Application",
+      "subtitle": "Java Full Stack Web Application",
+      "category": "Web Application",
+      "art": "food",
+      "description": "Java full stack food ordering platform with secure authentication, restaurant listings, cart management, and checkout.",
+      "features": [
+        "Secure authentication, restaurant listings, and cart management.",
+        "Database integration with JDBC and SQL.",
+        "Profile-based auto-fill and an order confirmation workflow."
+      ],
+      "tags": [
+        "Java",
+        "JSP",
+        "JDBC",
+        "SQL",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "id": "resume",
+      "title": "Smart AI Resume Analyzer",
+      "subtitle": "AI / NLP Application",
+      "category": "AI / NLP",
+      "art": "resume",
+      "description": "AI-powered resume analysis with NLP, job description matching, resume scoring, and personalized improvement suggestions.",
+      "features": [
+        "Resume analysis with NLP and keyword matching.",
+        "Resume scoring against job requirements.",
+        "Personalized suggestions to strengthen a resume."
+      ],
+      "tags": [
+        "Python",
+        "Streamlit",
+        "spaCy",
+        "scikit-learn",
+        "PyPDF2",
+        "python-docx"
+      ]
+    },
+    {
+      "id": "qdance",
+      "title": "QDance",
+      "subtitle": "AI-Assisted Reliability Platform",
+      "category": "AI Platform",
+      "art": "qdance",
+      "description": "Contribute to the design and development of QDance, an AI-assisted reliability platform, using TypeScript, Node.js, PostgreSQL, Redis, and REST APIs. Work with Apache Kafka, RabbitMQ, Redis Streams, Docker, and Docker Compose to support asynchronous messaging and event-driven workflows. Contribute to requirement analysis, system design, API integration, testing, and troubleshooting.",
+      "features": [
+        "Design and development of an AI-assisted reliability platform with backend services and REST API integration.",
+        "Asynchronous messaging and event-driven workflows using Apache Kafka, RabbitMQ, and Redis Streams.",
+        "Requirement analysis, system design, testing, and troubleshooting with Docker and Docker Compose."
+      ],
+      "tags": [
+        "TypeScript",
+        "Node.js",
+        "PostgreSQL",
+        "Redis",
+        "REST APIs",
+        "Apache Kafka",
+        "RabbitMQ",
+        "Redis Streams",
+        "Docker",
+        "Docker Compose"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "title": "Software Engineer",
+      "company": "Tagna",
+      "location": "Virtual",
+      "date": "Feb 2026 – Present",
+      "current": true,
+      "bullets": [
+        "Contribute to the design and development of QDance, an AI-assisted reliability platform, using TypeScript, Node.js, PostgreSQL, Redis, and REST APIs.",
+        "Work with Apache Kafka, RabbitMQ, Redis Streams, Docker, and Docker Compose to support asynchronous messaging and event-driven workflows.",
+        "Contribute to requirement analysis, system design, API integration, testing, and troubleshooting."
+      ],
+      "tags": [
+        "TypeScript",
+        "Node.js",
+        "PostgreSQL",
+        "Redis",
+        "Messaging",
+        "Docker"
+      ]
+    },
+    {
+      "title": "Java Developer Intern",
+      "company": "JSpiders",
+      "location": "Bengaluru",
+      "date": "Apr 2025 – Nov 2025",
+      "bullets": [
+        "Gained hands-on experience in Core and Advanced Java, including OOP, Collections, Multithreading, Exception Handling, and Java 8.",
+        "Built backend applications with JDBC, JSP, Servlets, J2EE, and MySQL.",
+        "Worked with Spring, Spring Boot, and Hibernate to implement MVC architecture and ORM-based persistence."
+      ],
+      "tags": [
+        "Java",
+        "Spring Boot",
+        "Hibernate",
+        "JDBC",
+        "JSP",
+        "MySQL"
+      ]
+    },
+    {
+      "title": "AI Data Quality Analyst Intern",
+      "company": "Rooman Technologies",
+      "location": "Virtual",
+      "date": "Sep 2024 – Mar 2025",
+      "bullets": [
+        "Performed data validation, cleaning, and quality checks for AI/ML training datasets.",
+        "Reviewed and annotated datasets, identified inconsistencies, and helped improve data quality for model training."
+      ],
+      "tags": [
+        "Data Validation",
+        "Data Cleaning",
+        "Annotation",
+        "Quality Checks"
+      ]
+    }
+  ],
+  "education": {
+    "institution": "Bahubali College of Engineering",
+    "degree": "Bachelor’s degree in Information Science & Engineering",
+    "location": "Shravanabelagola, Karnataka",
+    "date": "Dec 2021 – Jun 2025",
+    "grade": "CGPA: 7.5"
+  },
+  "certifications": [
+    {
+      "name": "Certified Java Developer",
+      "issuer": "JSpiders"
+    },
+    {
+      "name": "AI Data Quality Analyst",
+      "issuer": "Rooman Technologies"
+    }
+  ],
+  "resumeUrl": "/assets/rahul-kumar-hv-resume.pdf"
+}
